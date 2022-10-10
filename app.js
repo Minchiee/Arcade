@@ -55,7 +55,6 @@ for(let i = 0; i < cell.length; i++){
                 alert("Cannot take move!")
             }
         }
-        isWinner();
     })
 }
 

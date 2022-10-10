@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script defer src="index.js"></script>
-    <title>Connect Four</title>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    <h1>Connect Four</h1>
-    <h2 id="winner"></h1>
-    <div id="board"></div>
+    <div class="container">
+        <div class="score">
+            <span class="player1Score"></span>
+            <span class="player2Score"></span>
+        </div>
+        <div class="board">
+            <div class="cells">
+                <span class="cell"></span>
+                <span class="cell"></span>
+                <span class="cell"></span>
+            </div>
+            <div class="cells">
+                <span class="cell"></span>
+                <span class="cell"></span>
+                <span class="cell"></span>
+            </div>
+            <div class="cells">
+                <span class="cell"></span>
+                <span class="cell"></span>
+                <span class="cell"></span>
+            </div>
+        </div>
+
+        <div class="newGame">
+            <button class="restart">Restart</button>
+        </div>
+    </div>
 </body>
 </html>

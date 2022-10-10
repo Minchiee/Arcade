@@ -83,20 +83,4 @@ restart.addEventListener('click', () => {
     resetBoard();
 })
 
-function isWinner(){
-    winCon.find((item) => {
-        if (item.filter((i) => player1.includes(i).length === 3)){
-            alert("Player 1 Wins!");
-            score.player1++;
-            getScore();
-            return item;
-        }
-        else if (item.filter((i) => player2.includes(i).length === 3)){
-            alert("Player 2 Wins!");
-            score.player2++;
-            getScore();
-        }
-        return;
-    })
-}
 
